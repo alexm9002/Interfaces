@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace Interfaces.Entidades {
+    internal class LocacaoVeiculo {
+        public DateTime Retirada { get; set; }
+        public DateTime Devolucao { get; set; }
+
+        public LocacaoVeiculo(DateTime retirada, DateTime devolucao) {
+            this.Retirada = retirada;
+            this.Devolucao = devolucao;
+        }
+    }
+}
